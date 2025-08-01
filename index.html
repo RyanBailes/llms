@@ -3,961 +3,341 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLMS.txt & LLMS-full.txt Hosting for Shopify | Boost AI Search Visibility</title>
-    <meta name="description" content="Shopify doesn't support LLMS.txt files. We do. Add LLMS.txt & LLMS-full.txt to your store and get found in AI search results like ChatGPT and Perplexity.">
+    <title>LLMS.txt Hosting for Shopify | ShopifyLLMS.com</title>
+    <meta name="description" content="Host LLMS.txt files for your Shopify store to boost AI visibility. Be seen by ChatGPT, Bing, and more.">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            color: #212b36;
+        .gradient-bg {
+            background: linear-gradient(135deg, #6b46c1 0%, #3182ce 100%);
         }
-        .hero-gradient {
-            background: linear-gradient(135deg, #f6f8f9 0%, #eef2f5 100%);
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
         }
-        .shopify-blue {
-            color: #5c6ac4;
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-        .shopify-blue-bg {
-            background-color: #5c6ac4;
-        }
-        .shopify-blue-border {
-            border-color: #5c6ac4;
-        }
-        .hover\:shopify-blue-bg:hover {
-            background-color: #4a56b2;
-        }
-        .feature-card {
-            transition: all 0.3s ease;
-        }
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        .section {
+            scroll-margin-top: 100px;
         }
     </style>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "LLMS File Hosting for Shopify",
-      "description": "Hosted LLMS.txt and LLMS-full.txt solution for Shopify stores to improve AI search visibility",
-      "brand": {
-        "@type": "Brand",
-        "name": "Your Brand Name"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "TBD",
-        "priceCurrency": "USD"
-      }
-    }
-    </script>
 </head>
-<body class="bg-white">
-    <!-- Navigation -->
-    <nav class="bg-white shadow-sm py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center">
-                <div class="flex items-center">
-                    <div class="flex-shrink-0 flex items-center">
-                        <i class="fas fa-robot text-2xl shopify-blue mr-2"></i>
-                        <span class="text-xl font-semibold">AI SEO Hosting</span>
-                    </div>
-                </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-center space-x-4">
-                        <a href="#features" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Features</a>
-                        <a href="#how-it-works" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">How It Works</a>
-                        <a href="#faq" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">FAQ</a>
-                        <a href="#pricing" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Pricing</a>
-                    </div>
-                </div>
-                <div class="md:hidden">
-                    <button type="button" class="mobile-menu-button inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-shopify-blue">
-                        <span class="sr-only">Open main menu</span>
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Mobile menu -->
-        <div class="mobile-menu hidden md:hidden">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#features" class="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Features</a>
-                <a href="#how-it-works" class="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">How It Works</a>
-                <a href="#faq" class="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
-                <a href="#pricing" class="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Pricing</a>
-            </div>
-        </div>
-    </nav>
-
+<body class="font-sans antialiased text-gray-800">
     <!-- Hero Section -->
-    <div class="hero-gradient">
-        <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                    <span class="block">LLMS.txt for Shopify:</span>
-                    <span class="block shopify-blue">Get Found by AI</span>
-                </h1>
-                <p class="mt-3 max-w-md mx-auto text-base text-gray-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                    Shopify doesn't let you add LLMS.txt. We make it possible—securely hosted, crawlable, and AI-ready.
-                </p>
-                <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-                    <div class="rounded-md shadow">
-                        <a href="#early-access" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white shopify-blue-bg hover:shopify-blue-bg md:py-4 md:text-lg md:px-10">
-                            Get Early Access
-                        </a>
-                    </div>
-                    <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                        <a href="#how-it-works" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shopify-blue shopify-blue-border bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
-                            Learn More
-                        </a>
-                    </div>
-                </div>
+    <section class="gradient-bg text-white min-h-screen flex items-center justify-center px-4 py-20">
+        <div class="max-w-4xl mx-auto text-center fade-in">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Make Your Shopify Store Visible to AI</h1>
+            <p class="text-xl md:text-2xl mb-10 opacity-90">We host your LLMS.txt and LLMS-full.txt so ChatGPT, Bing, and Perplexity can see your brand.</p>
+            <button id="ctaButton" class="bg-white text-indigo-700 font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-lg">
+                Join the Waitlist
+            </button>
+            <p class="mt-6 text-indigo-100">No apps. No code. AI-ready.</p>
+            <div class="mt-16 animate-bounce">
+                <i class="fas fa-chevron-down text-2xl opacity-70"></i>
             </div>
         </div>
-    </div>
-
-    <!-- Trust Badges -->
-    <div class="bg-white py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-                <p class="text-sm font-semibold tracking-wide uppercase text-gray-600">Trusted by Shopify merchants worldwide</p>
-                <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
-                    <div class="col-span-1 flex justify-center">
-                        <div class="flex items-center">
-                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
-                            <span class="text-gray-700 font-medium">Secure</span>
-                        </div>
-                    </div>
-                    <div class="col-span-1 flex justify-center">
-                        <div class="flex items-center">
-                            <i class="fas fa-bolt text-yellow-500 mr-2"></i>
-                            <span class="text-gray-700 font-medium">Fast Setup</span>
-                        </div>
-                    </div>
-                    <div class="col-span-1 flex justify-center">
-                        <div class="flex items-center">
-                            <i class="fas fa-shield-alt text-blue-500 mr-2"></i>
-                            <span class="text-gray-700 font-medium">Reliable</span>
-                        </div>
-                    </div>
-                    <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                        <div class="flex items-center">
-                            <i class="fas fa-cog text-purple-500 mr-2"></i>
-                            <span class="text-gray-700 font-medium">No Coding</span>
-                        </div>
-                    </div>
-                    <div class="col-span-2 flex justify-center md:col-span-4 lg:col-span-1">
-                        <div class="flex items-center">
-                            <i class="fas fa-headset text-red-500 mr-2"></i>
-                            <span class="text-gray-700 font-medium">Support Included</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- What Is LLMS.txt? -->
-    <div class="bg-gray-50 py-16" id="features">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-                <h2 class="text-base shopify-blue font-semibold tracking-wide uppercase">What is LLMS.txt?</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    What Is LLMS.txt and Why Should You Care?
-                </p>
-                <p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
-                    LLMS.txt is to AI search what robots.txt is to traditional search engines.
-                </p>
-            </div>
-
-            <div class="mt-10">
-                <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-                    <div class="feature-card bg-white p-6 rounded-lg shadow">
-                        <div class="flex items-center">
-                            <div class="flex-shrink-0 bg-blue-100 rounded-md p-3">
-                                <i class="fas fa-search shopify-blue text-xl"></i>
-                            </div>
-                            <div class="ml-5">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">AI Search Visibility</h3>
-                            </div>
-                        </div>
-                        <div class="mt-2 text-gray-600">
-                            <p>LLMS.txt helps AI models like ChatGPT, Perplexity, and Bing Copilot understand which parts of your site to index and how to represent your brand in responses.</p>
-                        </div>
-                    </div>
-
-                    <div class="feature-card bg-white p-6 rounded-lg shadow">
-                        <div class="flex items-center">
-                            <div class="flex-shrink-0 bg-blue-100 rounded-md p-3">
-                                <i class="fas fa-robot shopify-blue text-xl"></i>
-                            </div>
-                            <div class="ml-5">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">Control Your Brand</h3>
-                            </div>
-                        </div>
-                        <div class="mt-2 text-gray-600">
-                            <p>Specify exactly how AI should describe your products, brand values, and content to ensure accurate representation in AI-generated responses.</p>
-                        </div>
-                    </div>
-
-                    <div class="feature-card bg-white p-6 rounded-lg shadow">
-                        <div class="flex items-center">
-                            <div class="flex-shrink-0 bg-blue-100 rounded-md p-3">
-                                <i class="fas fa-lock shopify-blue text-xl"></i>
-                            </div>
-                            <div class="ml-5">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">Secure Implementation</h3>
-                            </div>
-                        </div>
-                        <div class="mt-2 text-gray-600">
-                            <p>Our hosted solution requires no theme modifications or risky workarounds that could break your store.</p>
-                        </div>
-                    </div>
-
-                    <div class="feature-card bg-white p-6 rounded-lg shadow">
-                        <div class="flex items-center">
-                            <div class="flex-shrink-0 bg-blue-100 rounded-md p-3">
-                                <i class="fas fa-chart-line shopify-blue text-xl"></i>
-                            </div>
-                            <div class="ml-5">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">Future-Proof SEO</h3>
-                            </div>
-                        </div>
-                        <div class="mt-2 text-gray-600">
-                            <p>As AI search grows, your store will be ready with proper LLMS.txt implementation from day one.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- Problem Section -->
-    <div class="bg-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-                <h2 class="text-base shopify-blue font-semibold tracking-wide uppercase">The Challenge</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    The Problem with Shopify and LLMS.txt
-                </p>
-                <p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
-                    Shopify's architecture prevents direct LLMS.txt implementation.
-                </p>
+    <section id="problem" class="section py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The Shopify AI Visibility Problem</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
             </div>
-
-            <div class="mt-10">
-                <div class="bg-red-50 border-l-4 border-red-400 p-4">
-                    <div class="flex">
-                        <div class="flex-shrink-0">
-                            <i class="fas fa-exclamation-circle text-red-400"></i>
-                        </div>
-                        <div class="ml-3">
-                            <p class="text-sm text-red-700">
-                                Shopify doesn't allow root-level file access, meaning you can't upload LLMS.txt or LLMS-full.txt files directly to your store.
-                            </p>
-                        </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4 text-3xl">
+                        <i class="fas fa-ban"></i>
                     </div>
+                    <h3 class="text-xl font-bold mb-3">Root-Level File Block</h3>
+                    <p class="text-gray-600">Shopify doesn't allow uploading files like LLMS.txt to your store's root directory where AI crawlers expect to find them.</p>
                 </div>
-
-                <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
-                    <div class="bg-white p-6 rounded-lg shadow">
-                        <h3 class="text-lg font-medium text-gray-900">Current Limitations</h3>
-                        <ul class="mt-4 space-y-3">
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-times-circle text-red-500"></i>
-                                </div>
-                                <p class="ml-2 text-gray-600">No native LLMS.txt support in Shopify</p>
-                            </li>
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-times-circle text-red-500"></i>
-                                </div>
-                                <p class="ml-2 text-gray-600">Theme modifications don't solve the root-level file issue</p>
-                            </li>
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-times-circle text-red-500"></i>
-                                </div>
-                                <p class="ml-2 text-gray-600">Most apps can't provide true LLMS.txt functionality</p>
-                            </li>
-                        </ul>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4 text-3xl">
+                        <i class="fas fa-robot"></i>
                     </div>
-
-                    <div class="bg-white p-6 rounded-lg shadow">
-                        <h3 class="text-lg font-medium text-gray-900">Impact on Your Store</h3>
-                        <ul class="mt-4 space-y-3">
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-exclamation-triangle text-yellow-500"></i>
-                                </div>
-                                <p class="ml-2 text-gray-600">Missed visibility in AI search results</p>
-                            </li>
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-exclamation-triangle text-yellow-500"></i>
-                                </div>
-                                <p class="ml-2 text-gray-600">Less control over how AI represents your brand</p>
-                            </li>
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-exclamation-triangle text-yellow-500"></i>
-                                </div>
-                                <p class="ml-2 text-gray-600">Potential misinformation in AI-generated responses</p>
-                            </li>
-                        </ul>
+                    <h3 class="text-xl font-bold mb-3">AI Crawlers Need LLMS.txt</h3>
+                    <p class="text-gray-600">ChatGPT, Perplexity, and other AI tools rely on LLMS.txt to discover, index, and trust your store's content.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4 text-3xl">
+                        <i class="fas fa-eye-slash"></i>
                     </div>
+                    <h3 class="text-xl font-bold mb-3">Invisible to AI</h3>
+                    <p class="text-gray-600">Without properly hosted LLMS files, your products and content may be completely invisible to AI search engines.</p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Solution Section -->
-    <div class="bg-gray-50 py-16" id="how-it-works">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-                <h2 class="text-base shopify-blue font-semibold tracking-wide uppercase">Our Solution</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    How Our Hosted LLMS.txt Solution Works
-                </p>
-                <p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
-                    A simple, secure way to add LLMS.txt to your Shopify store.
-                </p>
+    <section id="solution" class="section py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The ShopifyLLMS Solution</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
             </div>
-
-            <div class="mt-10">
-                <div class="relative">
-                    <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-                        <div class="relative mb-10 lg:mb-0">
-                            <div class="relative space-y-4">
-                                <div class="bg-white p-6 rounded-lg shadow">
-                                    <h3 class="text-lg font-medium text-gray-900">1. Sign Up</h3>
-                                    <p class="mt-2 text-gray-600">Create an account and connect your Shopify store.</p>
-                                </div>
-                                <div class="bg-white p-6 rounded-lg shadow">
-                                    <h3 class="text-lg font-medium text-gray-900">2. Configure Your LLMS.txt</h3>
-                                    <p class="mt-2 text-gray-600">Specify which pages AI should index and how to represent your brand.</p>
-                                </div>
-                                <div class="bg-white p-6 rounded-lg shadow">
-                                    <h3 class="text-lg font-medium text-gray-900">3. We Host Your Files</h3>
-                                    <p class="mt-2 text-gray-600">Your LLMS.txt files are hosted on a dedicated subdomain that AI crawlers can access.</p>
-                                </div>
-                                <div class="bg-white p-6 rounded-lg shadow">
-                                    <h3 class="text-lg font-medium text-gray-900">4. AI Discovers Your Store</h3>
-                                    <p class="mt-2 text-gray-600">Large language models now properly index and represent your Shopify store.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <div class="bg-white p-6 rounded-lg shadow">
-                                <h3 class="text-lg font-medium text-gray-900 mb-4">Before vs. After Hosting LLMS.txt</h3>
-                                <div class="overflow-x-auto">
-                                    <table class="min-w-full divide-y divide-gray-200">
-                                        <thead class="bg-gray-50">
-                                            <tr>
-                                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aspect</th>
-                                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Without LLMS.txt</th>
-                                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">With Our Solution</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="bg-white divide-y divide-gray-200">
-                                            <tr>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">AI Search Visibility</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Limited or inconsistent</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Optimized for discovery</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Brand Representation</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">AI guesses based on content</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">You control the narrative</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Technical Implementation</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Not possible on Shopify</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Simple setup, no coding</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Future-Proofing</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Left behind as AI search grows</td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Ready for AI-first search</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+            
+            <div class="flex flex-col md:flex-row items-center gap-10">
+                <div class="md:w-1/2">
+                    <div class="bg-gray-100 p-6 rounded-lg border border-gray-200">
+                        <div class="bg-white p-4 rounded shadow-inner">
+                            <div class="font-mono text-sm">
+                                <p class="text-indigo-600"># Example LLMS.txt hosted at</p>
+                                <p class="text-indigo-600"># yourstore.shopifyllms.com</p>
+                                <p class="mt-4">Author: Your Brand Name</p>
+                                <p>Description: Your store description for AI</p>
+                                <p>Products: [list of product categories]</p>
+                                <p>Policy: https://yourstore.com/policies</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Sample Files Section -->
-    <div class="bg-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-                <h2 class="text-base shopify-blue font-semibold tracking-wide uppercase">Examples</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    What Your LLMS.txt Might Look Like
-                </p>
-                <p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
-                    Customize these files to control how AI indexes your store.
-                </p>
-            </div>
-
-            <div class="mt-10">
-                <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-                    <div class="bg-gray-800 rounded-lg overflow-hidden">
-                        <div class="px-4 py-3 bg-gray-900 flex items-center">
-                            <div class="flex space-x-2">
-                                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                
+                <div class="md:w-1/2">
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 bg-indigo-100 rounded-full p-2 mr-4">
+                                <i class="fas fa-check text-indigo-600"></i>
                             </div>
-                            <div class="ml-4 text-sm text-gray-400">LLMS.txt</div>
-                        </div>
-                        <div class="px-4 py-3">
-                            <pre class="text-green-400 text-sm overflow-x-auto">
-# LLMS.txt for Shopify Store
-# Version: 1.0
-
-# Allow indexing of these paths
-Allow: /products/
-Allow: /collections/
-Allow: /pages/about-us
-Allow: /pages/shipping-policy
-
-# Disallow indexing of these paths
-Disallow: /cart
-Disallow: /checkout
-Disallow: /account
-
-# Brand representation
-Brand-Name: "Your Shopify Store"
-Brand-Description: "Premium eco-friendly products for modern living"
-Brand-Keywords: "sustainable, organic, handmade, ethical"
-                            </pre>
-                        </div>
-                    </div>
-
-                    <div class="bg-gray-800 rounded-lg overflow-hidden">
-                        <div class="px-4 py-3 bg-gray-900 flex items-center">
-                            <div class="flex space-x-2">
-                                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                            <div>
+                                <h3 class="text-lg font-bold">Dedicated AI Subdomain</h3>
+                                <p class="text-gray-600 mt-1">We host your LLMS files on a crawlable subdomain (yourstore.shopifyllms.com) that AI bots can access.</p>
                             </div>
-                            <div class="ml-4 text-sm text-gray-400">LLMS-full.txt</div>
-                        </div>
-                        <div class="px-4 py-3">
-                            <pre class="text-green-400 text-sm overflow-x-auto">
-# LLMS-full.txt for Shopify Store
-# Version: 1.0
-
-# Full content guidelines for AI
-Content-Guidelines:
-  - "Refer to our products as premium quality"
-  - "Mention our 30-day return policy when discussing purchases"
-  - "Highlight our carbon-neutral shipping options"
-
-# Product representation rules
-Product-Description-Rules:
-  - "Always include materials used"
-  - "Mention dimensions when relevant"
-  - "Include care instructions"
-
-# Prohibited representations
-Prohibited:
-  - "Do not claim products are on sale unless specified"
-  - "Do not suggest uses not approved by manufacturer"
-  - "Do not modify product names"
-                            </pre>
-                        </div>
-                    </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 bg-indigo-100 rounded-full p-2 mr-4">
+                                <i class="fas fa-check text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">Zero Technical Work</h3>
+                                <p class="text-gray-600 mt-1">No apps to install, no theme code to edit. Just provide your store details and we handle the rest.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 bg-indigo-100 rounded-full p-2 mr-4">
+                                <i class="fas fa-check text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">AI Bot Compatibility</h3>
+                                <p class="text-gray-600 mt-1">Optimized for GPTBot, PerplexityBot, and other AI crawlers that look for LLMS.txt files.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Pricing Section -->
-    <div class="bg-gray-50 py-16" id="pricing">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-                <h2 class="text-base shopify-blue font-semibold tracking-wide uppercase">Pricing</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    Simple, Transparent Pricing
-                </p>
-                <p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
-                    Affordable plans for stores of all sizes.
-                </p>
+    <!-- Benefits Section -->
+    <section id="benefits" class="section py-20 bg-indigo-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What You Get</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
             </div>
-
-            <div class="mt-10">
-                <div class="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-6 lg:max-w-4xl lg:mx-auto">
-                    <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-                        <div class="p-6">
-                            <h3 class="text-lg leading-6 font-medium text-gray-900">Starter</h3>
-                            <p class="mt-4">
-                                <span class="text-4xl font-extrabold text-gray-900">$9</span>
-                                <span class="text-base font-medium text-gray-500">/mo</span>
-                            </p>
-                            <p class="mt-4 text-sm text-gray-500">
-                                Perfect for new stores testing AI visibility
-                            </p>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-file-alt text-indigo-600 text-xl"></i>
                         </div>
-                        <div class="pt-6 pb-8 px-6">
-                            <ul class="space-y-4">
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Basic LLMS.txt hosting</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Up to 50 products</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Email support</p>
-                                </li>
-                            </ul>
-                            <div class="mt-8">
-                                <a href="#early-access" class="block w-full bg-gray-50 border border-gray-300 rounded-md py-2 text-sm font-semibold shopify-blue text-center hover:bg-gray-100">
-                                    Get Started
-                                </a>
-                            </div>
-                        </div>
+                        <h3 class="text-xl font-bold">Hosted LLMS Files</h3>
                     </div>
-
-                    <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-                        <div class="p-6">
-                            <h3 class="text-lg leading-6 font-medium text-gray-900">Growth</h3>
-                            <p class="mt-4">
-                                <span class="text-4xl font-extrabold text-gray-900">$29</span>
-                                <span class="text-base font-medium text-gray-500">/mo</span>
-                            </p>
-                            <p class="mt-4 text-sm text-gray-500">
-                                For growing stores serious about AI search
-                            </p>
+                    <p class="text-gray-600">We maintain both LLMS.txt and LLMS-full.txt files that AI crawlers can access to understand your store's content structure.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-globe text-indigo-600 text-xl"></i>
                         </div>
-                        <div class="pt-6 pb-8 px-6">
-                            <ul class="space-y-4">
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">LLMS.txt + LLMS-full.txt</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Up to 500 products</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Priority support</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Monthly analytics</p>
-                                </li>
-                            </ul>
-                            <div class="mt-8">
-                                <a href="#early-access" class="block w-full shopify-blue-bg border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:shopify-blue-bg">
-                                    Get Started
-                                </a>
-                            </div>
-                        </div>
+                        <h3 class="text-xl font-bold">Crawlable Subdomain</h3>
                     </div>
-
-                    <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-                        <div class="p-6">
-                            <h3 class="text-lg leading-6 font-medium text-gray-900">Enterprise</h3>
-                            <p class="mt-4">
-                                <span class="text-4xl font-extrabold text-gray-900">$99</span>
-                                <span class="text-base font-medium text-gray-500">/mo</span>
-                            </p>
-                            <p class="mt-4 text-sm text-gray-500">
-                                For high-volume stores needing custom solutions
-                            </p>
+                    <p class="text-gray-600">Your dedicated subdomain (yourstore.shopifyllms.com) is optimized for AI crawlers and follows all best practices.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-sync-alt text-indigo-600 text-xl"></i>
                         </div>
-                        <div class="pt-6 pb-8 px-6">
-                            <ul class="space-y-4">
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Full LLMS suite</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Unlimited products</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">24/7 support</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Advanced analytics</p>
-                                </li>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0">
-                                        <i class="fas fa-check text-green-500"></i>
-                                    </div>
-                                    <p class="ml-3 text-base text-gray-700">Custom AI training</p>
-                                </li>
-                            </ul>
-                            <div class="mt-8">
-                                <a href="#early-access" class="block w-full bg-gray-50 border border-gray-300 rounded-md py-2 text-sm font-semibold shopify-blue text-center hover:bg-gray-100">
-                                    Get Started
-                                </a>
-                            </div>
-                        </div>
+                        <h3 class="text-xl font-bold">Easy Updates</h3>
                     </div>
+                    <p class="text-gray-600">Update your product listings, policies, or store information through our simple dashboard whenever needed.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-bolt text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Fast & Reliable</h3>
+                    </div>
+                    <p class="text-gray-600">Our infrastructure is built for speed and reliability, ensuring AI crawlers can always access your files.</p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- FAQ Section -->
-    <div class="bg-white py-16" id="faq">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:text-center">
-                <h2 class="text-base shopify-blue font-semibold tracking-wide uppercase">Questions</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    Frequently Asked Questions
-                </p>
-                <p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
-                    Everything you need to know about LLMS.txt for Shopify.
-                </p>
+    <section id="faq" class="section py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
             </div>
-
-            <div class="mt-12">
-                <div class="space-y-4 max-w-3xl mx-auto">
-                    <div class="border border-gray-200 rounded-lg overflow-hidden">
-                        <button class="faq-toggle w-full px-6 py-4 text-left focus:outline-none">
-                            <div class="flex items-center justify-between">
-                                <span class="text-lg font-medium text-gray-900">What's the difference between LLMS.txt and robots.txt?</span>
-                                <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
-                            </div>
-                        </button>
-                        <div class="faq-content hidden px-6 pb-4">
-                            <div class="prose text-gray-600">
-                                <p>While robots.txt controls how traditional search engines crawl your site, LLMS.txt specifically guides AI models like ChatGPT and Perplexity on how to index and represent your content. LLMS.txt includes additional directives for brand representation, content guidelines, and product description rules that go beyond simple crawl controls.</p>
-                            </div>
-                        </div>
+            
+            <div class="space-y-4">
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">What is LLMS.txt?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">LLMS.txt is a standardized text file that helps AI systems understand and index your website content. It provides metadata about your site, similar to how robots.txt works for search engines but optimized for large language models.</p>
                     </div>
-
-                    <div class="border border-gray-200 rounded-lg overflow-hidden">
-                        <button class="faq-toggle w-full px-6 py-4 text-left focus:outline-none">
-                            <div class="flex items-center justify-between">
-                                <span class="text-lg font-medium text-gray-900">Why can't I add LLMS.txt myself on Shopify?</span>
-                                <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
-                            </div>
-                        </button>
-                        <div class="faq-content hidden px-6 pb-4">
-                            <div class="prose text-gray-600">
-                                <p>Shopify's architecture doesn't allow merchants to upload files to the root directory of their store (where LLMS.txt needs to be). While you can add files to your theme, AI crawlers specifically look for these files at the root level (e.g., yourstore.com/LLMS.txt). Our solution provides this root-level access through a dedicated subdomain that AI crawlers recognize.</p>
-                            </div>
-                        </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">Why does Shopify need this solution?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Shopify doesn't allow merchants to upload files to their store's root directory where AI crawlers expect to find LLMS.txt. Our service provides an alternative location that follows AI crawling standards while working within Shopify's platform limitations.</p>
                     </div>
-
-                    <div class="border border-gray-200 rounded-lg overflow-hidden">
-                        <button class="faq-toggle w-full px-6 py-4 text-left focus:outline-none">
-                            <div class="flex items-center justify-between">
-                                <span class="text-lg font-medium text-gray-900">Will this improve my rankings on Google?</span>
-                                <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
-                            </div>
-                        </button>
-                        <div class="faq-content hidden px-6 pb-4">
-                            <div class="prose text-gray-600">
-                                <p>LLMS.txt is specifically designed for AI search engines, not traditional search engines like Google. While it won't directly impact your Google rankings, it will help ensure your store is properly represented in AI-powered search results (like ChatGPT, Bing AI, and Perplexity), which are becoming increasingly important for ecommerce discovery.</p>
-                            </div>
-                        </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">Will this help my store appear in ChatGPT results?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">While we can't guarantee placement in AI results, having properly formatted and accessible LLMS.txt files significantly increases the chances that your products and content will be discovered and included in AI-generated responses.</p>
                     </div>
-
-                    <div class="border border-gray-200 rounded-lg overflow-hidden">
-                        <button class="faq-toggle w-full px-6 py-4 text-left focus:outline-none">
-                            <div class="flex items-center justify-between">
-                                <span class="text-lg font-medium text-gray-900">How much does it cost?</span>
-                                <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
-                            </div>
-                        </button>
-                        <div class="faq-content hidden px-6 pb-4">
-                            <div class="prose text-gray-600">
-                                <p>We offer simple monthly pricing starting at just $9/month for basic LLMS.txt hosting, scaling up to $99/month for enterprise stores needing advanced features and custom AI training. All plans include secure hosting, easy setup, and ongoing support. See our <a href="#pricing" class="shopify-blue underline">pricing section</a> for full details.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-lg overflow-hidden">
-                        <button class="faq-toggle w-full px-6 py-4 text-left focus:outline-none">
-                            <div class="flex items-center justify-between">
-                                <span class="text-lg font-medium text-gray-900">How is this different from a sitemap?</span>
-                                <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
-                            </div>
-                        </button>
-                        <div class="faq-content hidden px-6 pb-4">
-                            <div class="prose text-gray-600">
-                                <p>While a sitemap simply lists your store's pages, LLMS.txt provides much more nuanced guidance to AI models. It includes rules about how to represent your brand, product description guidelines, content usage policies, and specific instructions about which parts of your site should (or shouldn't) be included in AI-generated responses. Think of it as both a technical directive and a brand style guide for AI.</p>
-                            </div>
-                        </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">How is this different from a sitemap.xml?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Sitemap.xml helps traditional search engines understand your site structure, while LLMS.txt provides additional metadata specifically designed for AI systems. They serve complementary purposes, and we recommend having both for maximum visibility.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- CTA Section -->
-    <div class="bg-gradient-to-r from-blue-600 to-indigo-700 py-16" id="early-access">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-                <div>
-                    <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-                        Be First In Line for AI Visibility
-                    </h2>
-                    <p class="mt-3 max-w-3xl text-lg leading-6 text-blue-100">
-                        Join our waitlist to get early access to Shopify's first dedicated LLMS.txt hosting solution.
-                    </p>
-                    <div class="mt-8 sm:flex">
-                        <div class="rounded-md shadow">
-                            <a href="#early-access-form" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
-                                Sign Up Now
-                            </a>
-                        </div>
-                        <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                            <a href="#demo" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 bg-opacity-60 hover:bg-opacity-70 md:py-4 md:text-lg md:px-10">
-                                Request Demo
-                            </a>
-                        </div>
-                    </div>
+    <!-- Final CTA -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">ShopifyLLMS.com helps your store get seen by AI.</h2>
+            <p class="text-xl mb-10 opacity-90">Be first in line when we launch.</p>
+            
+            <form id="waitlistForm" class="max-w-md mx-auto">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <input type="email" id="email" placeholder="Your email address" required 
+                           class="flex-grow px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-300">
+                    <button type="submit" 
+                            class="bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Join Waitlist
+                    </button>
                 </div>
-                <div class="mt-8 lg:mt-0">
-                    <div class="bg-white py-8 px-6 rounded-lg shadow-xl overflow-hidden sm:px-10">
-                        <div class="text-center">
-                            <h3 class="text-lg font-medium text-gray-900">Join the Waitlist</h3>
-                            <p class="mt-2 text-sm text-gray-600">
-                                Get notified when we launch. Early adopters get 50% off for the first 3 months.
-                            </p>
-                        </div>
-                        <form id="early-access-form" class="mt-6 space-y-6">
-                            <div>
-                                <label for="name" class="sr-only">Full name</label>
-                                <input type="text" name="name" id="name" autocomplete="name" required class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md" placeholder="Full name">
-                            </div>
-                            <div>
-                                <label for="email" class="sr-only">Email</label>
-                                <input type="email" name="email" id="email" autocomplete="email" required class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md" placeholder="Email">
-                            </div>
-                            <div>
-                                <label for="shop-url" class="sr-only">Shopify Store URL</label>
-                                <div class="mt-1 flex rounded-md shadow-sm">
-                                    <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-sm">
-                                        https://
-                                    </span>
-                                    <input type="text" name="shop-url" id="shop-url" class="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300" placeholder="yourstore.myshopify.com">
-                                </div>
-                            </div>
-                            <div>
-                                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white shopify-blue-bg hover:shopify-blue-bg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-                                    Join Waitlist
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <p class="mt-3 text-sm text-indigo-100">No spam. Just early access when we launch.</p>
+            </form>
+            
+            <div id="successMessage" class="hidden mt-6 p-4 bg-white text-indigo-700 rounded-lg max-w-md mx-auto">
+                <i class="fas fa-check-circle mr-2"></i> Thanks for joining! We'll be in touch soon.
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-50">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-                <div class="space-y-8 xl:col-span-1">
-                    <div class="flex items-center">
-                        <i class="fas fa-robot text-2xl shopify-blue mr-2"></i>
-                        <span class="text-xl font-semibold">AI SEO Hosting</span>
-                    </div>
-                    <p class="text-gray-500 text-base">
-                        Helping Shopify merchants succeed in the age of AI search.
-                    </p>
-                    <div class="flex space-x-6">
-                        <a href="#" class="text-gray-400 hover:text-gray-500">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-gray-500">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-gray-500">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-gray-500">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
+    <footer class="bg-gray-900 text-gray-400 py-10">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-white text-xl font-bold">ShopifyLLMS.com</h3>
+                    <p class="text-sm mt-1">Making Shopify stores AI-ready</p>
                 </div>
-                <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-                    <div class="md:grid md:grid-cols-2 md:gap-8">
-                        <div>
-                            <h3 class="text-sm font-semibold text-gray-500 tracking-wider uppercase">
-                                Product
-                            </h3>
-                            <ul class="mt-4 space-y-4">
-                                <li>
-                                    <a href="#features" class="text-base text-gray-600 hover:text-gray-900">
-                                        Features
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#pricing" class="text-base text-gray-600 hover:text-gray-900">
-                                        Pricing
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#faq" class="text-base text-gray-600 hover:text-gray-900">
-                                        FAQ
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="mt-12 md:mt-0">
-                            <h3 class="text-sm font-semibold text-gray-500 tracking-wider uppercase">
-                                Company
-                            </h3>
-                            <ul class="mt-4 space-y-4">
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        About
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        Blog
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        Contact
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="md:grid md:grid-cols-2 md:gap-8">
-                        <div>
-                            <h3 class="text-sm font-semibold text-gray-500 tracking-wider uppercase">
-                                Legal
-                            </h3>
-                            <ul class="mt-4 space-y-4">
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        Privacy
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        Terms
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        Cookie Policy
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="mt-12 md:mt-0">
-                            <h3 class="text-sm font-semibold text-gray-500 tracking-wider uppercase">
-                                Resources
-                            </h3>
-                            <ul class="mt-4 space-y-4">
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        Help Center
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        API Docs
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-base text-gray-600 hover:text-gray-900">
-                                        Status
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-product-hunt"></i></a>
                 </div>
             </div>
-            <div class="mt-12 border-t border-gray-200 pt-8">
-                <p class="text-base text-gray-400 xl:text-center">
-                    &copy; 2023 AI SEO Hosting. All rights reserved.
-                </p>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+                <p>© 2023 ShopifyLLMS. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Mobile menu toggle
-        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
-            document.querySelector('.mobile-menu').classList.toggle('hidden');
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
         });
 
-        // FAQ accordion functionality
+        // FAQ toggle functionality
         document.querySelectorAll('.faq-toggle').forEach(button => {
             button.addEventListener('click', () => {
                 const content = button.nextElementSibling;
                 const icon = button.querySelector('i');
                 
-                // Toggle content
                 content.classList.toggle('hidden');
-                
-                // Rotate icon
                 icon.classList.toggle('rotate-180');
             });
         });
 
         // Form submission
-        document.getElementById('early-access-form').addEventListener('submit', function(e) {
+        document.getElementById('waitlistForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            
-            // Get form values
-            const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
-            const shopUrl = document.getElementById('shop-url').value;
             
-            // Here you would typically send this data to your server
-            console.log('Form submitted:', { name, email, shopUrl });
+            // Here you would typically send the email to your backend
+            // For demo purposes, we'll just show a success message
+            console.log('Email submitted:', email);
             
-            // Show success message
-            alert('Thanks for joining our waitlist! We\'ll be in touch soon.');
+            document.getElementById('waitlistForm').style.display = 'none';
+            document.getElementById('successMessage').classList.remove('hidden');
             
-            // Reset form
-            this.reset();
+            // Scroll to show the success message
+            document.getElementById('successMessage').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Hero CTA button scrolls to form
+        document.getElementById('ctaButton').addEventListener('click', () => {
+            document.querySelector('section:last-of-type').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+
+        // Add fade-in animation when elements come into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
         });
     </script>
 </body>
