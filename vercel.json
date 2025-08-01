@@ -1,9 +1,12 @@
 {
+  "version": 2,
   "functions": {
     "api/**/*.js": {
       "runtime": "edge"
     }
   },
-  "buildCommand": "",
-  "outputDirectory": "public"
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1.js" }
+  ],
+  "public": "public"
 }
