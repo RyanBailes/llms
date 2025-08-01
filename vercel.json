@@ -3,5 +3,7 @@
     "api/**/*.js": {
       "runtime": "edge"
     }
-  }
+  },
+  "buildCommand": "",
+  "outputDirectory": "public"
 }
