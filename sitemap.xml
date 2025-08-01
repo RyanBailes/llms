@@ -9,17 +9,25 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Features section -->
+  <!-- Problem section -->
   <url>
-    <loc>https://shopifyllms.com/#features</loc>
+    <loc>https://shopifyllms.com/#problem</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- How it Works section -->
+  <!-- Solution section -->
   <url>
-    <loc>https://shopifyllms.com/#how-it-works</loc>
+    <loc>https://shopifyllms.com/#solution</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Benefits section -->
+  <url>
+    <loc>https://shopifyllms.com/#benefits</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
