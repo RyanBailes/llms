@@ -1,5 +1,5 @@
-# llms.txt for CecilAndLou.com
-# Controls access and usage policies for AI crawlers and LLMs
+# llms-full.txt for CecilAndLou.com
+# Comprehensive control for LLMs and all crawlers
 
 User-agent: GPTBot
 User-agent: CCBot
@@ -17,6 +17,7 @@ User-agent: GeminiBot
 User-agent: Yandex
 User-agent: yandexbot
 User-agent: Amazonbot
+User-agent: *
 
 Disallow: /admin
 Disallow: /cart
