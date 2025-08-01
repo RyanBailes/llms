@@ -32,6 +32,94 @@
 <!-- Additional Formats -->
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/img/shopifyllms-favicon.svg" type="image/svg+xml">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://shopifyllms.com/#organization",
+      "name": "ShopifyLLMS",
+      "url": "https://shopifyllms.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://shopifyllms.com/img/shopifyllms-logo.svg"
+      },
+      "sameAs": [],
+      "description": "ShopifyLLMS helps your Shopify store get seen by AI by hosting LLMS.txt and LLMS-full.txt on a crawlable subdomain."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://shopifyllms.com/#website",
+      "url": "https://shopifyllms.com",
+      "name": "ShopifyLLMS.com",
+      "publisher": {
+        "@id": "https://shopifyllms.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://shopifyllms.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "LLMS.txt Hosting for Shopify",
+      "description": "A simple hosting service for LLMS.txt and LLMS-full.txt to help AI systems index your Shopify store.",
+      "brand": {
+        "@type": "Brand",
+        "name": "ShopifyLLMS"
+      },
+      "url": "https://shopifyllms.com",
+      "offers": {
+        "@type": "Offer",
+        "price": "10.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/PreOrder"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is LLMS.txt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LLMS.txt is a standardized file that helps AI systems understand your website content, similar to robots.txt but tailored for large language models."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Shopify need this solution?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shopify doesn’t allow uploading LLMS.txt to the root directory. Our service hosts it on a subdomain crawled by AI bots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will this help my store appear in ChatGPT results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While not guaranteed, LLMS.txt improves your chances of being indexed and referenced by ChatGPT, Bing, and other AI tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this different from sitemap.xml?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sitemap.xml serves search engines, while LLMS.txt is designed for AI systems. They serve different but complementary indexing functions."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </head>
 
 <body class="font-sans antialiased text-gray-800">
