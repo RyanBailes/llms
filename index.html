@@ -1,145 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LLMS.txt Hosting for Shopify | ShopifyLLMS.com</title>
-  <meta name="description" content="Host LLMS.txt files for your Shopify store to boost AI visibility. Be seen by ChatGPT, Bing, and more.">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    .gradient-bg {
-      background: linear-gradient(135deg, #6b46c1 0%, #3182ce 100%);
-    }
-    .fade-in {
-      animation: fadeIn 1s ease-in-out;
-    }
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .section {
-      scroll-margin-top: 100px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLMS.txt Hosting for Shopify | ShopifyLLMS.com</title>
+    <meta name="description" content="Host LLMS.txt files for your Shopify store to boost AI visibility. Be seen by ChatGPT, Bing, and more.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6b46c1 0%, #3182ce 100%);
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .section {
+            scroll-margin-top: 100px;
+        }
+    </style>
 </head>
 <body class="font-sans antialiased text-gray-800">
-  <!-- Header -->
-  <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="/" class="flex items-center">
-        <img src="/images/logo.png" alt="ShopifyLLMS Logo" class="h-10 w-auto" />
-        <span class="ml-2 text-xl font-bold text-indigo-700">ShopifyLLMS</span>
-      </a>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="gradient-bg text-white min-h-screen flex items-center justify-center px-4 py-20 mt-24">
-    <div class="max-w-4xl mx-auto text-center fade-in">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6">Make Your Shopify Store Visible to AI</h1>
-      <p class="text-xl md:text-2xl mb-10 opacity-90">We host your LLMS.txt and LLMS-full.txt so ChatGPT, Bing, and Perplexity can see your brand.</p>
-      <a href="#waitlist" class="bg-white text-indigo-700 font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-lg inline-block">
-        Join the Waitlist
-      </a>
-      <p class="mt-6 text-indigo-100">No apps. No code. AI-ready.</p>
-      <a href="#waitlist" class="block mt-16 animate-bounce">
-        <i class="fas fa-chevron-down text-2xl opacity-70"></i>
-      </a>
-    </div>
-  </section>
-
-  <!-- Other Sections (Unchanged) -->
-
-  <!-- Final CTA -->
-  <section id="waitlist" class="gradient-bg text-white py-20">
-    <div class="max-w-3xl mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-6">ShopifyLLMS.com helps your store get seen by AI.</h2>
-      <p class="text-xl mb-10 opacity-90">Be first in line when we launch.</p>
-
-      <div class="max-w-md mx-auto">
-        <iframe
-          class="basinIframe rounded-lg overflow-hidden shadow-lg"
-          src="https://usebasin.com/form/8c57f838058b/view/6f9cb3be9126?iframe=true"
-          frameborder="0"
-          style="border: none; overflow: hidden;"
-          onload="
-            var self = this;
-            self.contentWindow.postMessage('getHeight', '*');
-            setInterval(function () {
-              self.contentWindow.postMessage('getHeight', '*');
-            }, 500);
-            window.addEventListener('message', function (event) {
-              if (event.data.action === 'setHeight') {
-                self.style.height = event.data.height + 'px';
-              }
-            });
-          "
-          width="100%"
-        ></iframe>
-        <script type="text/javascript">
-          window.addEventListener('message', function (event) {
-            if (event.data.action === 'redirect') {
-              window.location.href = event.data.url;
-            }
-          });
-        </script>
-      </div>
-
-      <p class="mt-4 text-sm text-indigo-100">No spam. Just early access when we launch.</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-gray-400 py-10">
-    <div class="max-w-5xl mx-auto px-4">
-      <div class="flex flex-col md:flex-row justify-between items-center">
-        <div class="mb-4 md:mb-0">
-          <h3 class="text-white text-xl font-bold">ShopifyLLMS.com</h3>
-          <p class="text-sm mt-1">Making Shopify stores AI-ready</p>
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white min-h-screen flex items-center justify-center px-4 py-20">
+        <div class="max-w-4xl mx-auto text-center fade-in">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Make Your Shopify Store Visible to AI</h1>
+            <p class="text-xl md:text-2xl mb-10 opacity-90">We host your LLMS.txt and LLMS-full.txt so ChatGPT, Bing, and Perplexity can see your brand.</p>
+            <button id="ctaButton" class="bg-white text-indigo-700 font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-lg">
+                Join the Waitlist
+            </button>
+            <p class="mt-6 text-indigo-100">No apps. No code. AI-ready.</p>
+            <div class="mt-16 animate-bounce">
+                <i class="fas fa-chevron-down text-2xl opacity-70"></i>
+            </div>
         </div>
-      </div>
-      <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
-        <p>© 2025 ShopifyLLMS. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- Script -->
-  <script>
-    // Smooth scrolling handled by CSS
+    <!-- Problem Section -->
+    <section id="problem" class="section py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The Shopify AI Visibility Problem</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4 text-3xl">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Root-Level File Block</h3>
+                    <p class="text-gray-600">Shopify doesn't allow uploading files like LLMS.txt to your store's root directory where AI crawlers expect to find them.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4 text-3xl">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">AI Crawlers Need LLMS.txt</h3>
+                    <p class="text-gray-600">ChatGPT, Perplexity, and other AI tools rely on LLMS.txt to discover, index, and trust your store's content.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4 text-3xl">
+                        <i class="fas fa-eye-slash"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Invisible to AI</h3>
+                    <p class="text-gray-600">Without properly hosted LLMS files, your products and content may be completely invisible to AI search engines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    // FAQ accordion toggle
-    document.querySelectorAll('.faq-toggle').forEach(button => {
-      button.addEventListener('click', () => {
-        const content = button.nextElementSibling;
-        const icon = button.querySelector('i');
-        content.classList.toggle('hidden');
-        icon.classList.toggle('rotate-180');
-      });
-    });
+    <!-- Solution Section -->
+    <section id="solution" class="section py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The ShopifyLLMS Solution</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center gap-10">
+                <div class="md:w-1/2">
+                    <div class="bg-gray-100 p-6 rounded-lg border border-gray-200">
+                        <div class="bg-white p-4 rounded shadow-inner">
+                            <div class="font-mono text-sm">
+                                <p class="text-indigo-600"># Example LLMS.txt hosted at</p>
+                                <p class="text-indigo-600"># yourstore.shopifyllms.com</p>
+                                <p class="mt-4">Author: Your Brand Name</p>
+                                <p>Description: Your store description for AI</p>
+                                <p>Products: [list of product categories]</p>
+                                <p>Policy: https://yourstore.com/policies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 bg-indigo-100 rounded-full p-2 mr-4">
+                                <i class="fas fa-check text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">Dedicated AI Subdomain</h3>
+                                <p class="text-gray-600 mt-1">We host your LLMS files on a crawlable subdomain (yourstore.shopifyllms.com) that AI bots can access.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 bg-indigo-100 rounded-full p-2 mr-4">
+                                <i class="fas fa-check text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">Zero Technical Work</h3>
+                                <p class="text-gray-600 mt-1">No apps to install, no theme code to edit. Just provide your store details and we handle the rest.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 bg-indigo-100 rounded-full p-2 mr-4">
+                                <i class="fas fa-check text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">AI Bot Compatibility</h3>
+                                <p class="text-gray-600 mt-1">Optimized for GPTBot, PerplexityBot, and other AI crawlers that look for LLMS.txt files.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    // Fade-in observer
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('fade-in');
-        }
-      });
-    }, { threshold: 0.1 });
+    <!-- Benefits Section -->
+    <section id="benefits" class="section py-20 bg-indigo-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What You Get</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-file-alt text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Hosted LLMS Files</h3>
+                    </div>
+                    <p class="text-gray-600">We maintain both LLMS.txt and LLMS-full.txt files that AI crawlers can access to understand your store's content structure.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-globe text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Crawlable Subdomain</h3>
+                    </div>
+                    <p class="text-gray-600">Your dedicated subdomain (yourstore.shopifyllms.com) is optimized for AI crawlers and follows all best practices.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-sync-alt text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Easy Updates</h3>
+                    </div>
+                    <p class="text-gray-600">Update your product listings, policies, or store information through our simple dashboard whenever needed.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-bolt text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Fast & Reliable</h3>
+                    </div>
+                    <p class="text-gray-600">Our infrastructure is built for speed and reliability, ensuring AI crawlers can always access your files.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    document.querySelectorAll('.section').forEach(section => {
-      observer.observe(section);
-    });
-  </script>
+    <!-- FAQ Section -->
+    <section id="faq" class="section py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">What is LLMS.txt?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">LLMS.txt is a standardized text file that helps AI systems understand and index your website content. It provides metadata about your site, similar to how robots.txt works for search engines but optimized for large language models.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">Why does Shopify need this solution?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Shopify doesn't allow merchants to upload files to their store's root directory where AI crawlers expect to find LLMS.txt. Our service provides an alternative location that follows AI crawling standards while working within Shopify's platform limitations.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">Will this help my store appear in ChatGPT results?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">While we can't guarantee placement in AI results, having properly formatted and accessible LLMS.txt files significantly increases the chances that your products and content will be discovered and included in AI-generated responses.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition">
+                        <h3 class="text-lg font-bold">How is this different from a sitemap.xml?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Sitemap.xml helps traditional search engines understand your site structure, while LLMS.txt provides additional metadata specifically designed for AI systems. They serve complementary purposes, and we recommend having both for maximum visibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">ShopifyLLMS.com helps your store get seen by AI.</h2>
+            <p class="text-xl mb-10 opacity-90">Be first in line when we launch.</p>
+            
+            <form id="waitlistForm" class="max-w-md mx-auto">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <input type="email" id="email" placeholder="Your email address" required 
+                           class="flex-grow px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-300">
+                    <button type="submit" 
+                            class="bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Join Waitlist
+                    </button>
+                </div>
+                <p class="mt-3 text-sm text-indigo-100">No spam. Just early access when we launch.</p>
+            </form>
+            
+            <div id="successMessage" class="hidden mt-6 p-4 bg-white text-indigo-700 rounded-lg max-w-md mx-auto">
+                <i class="fas fa-check-circle mr-2"></i> Thanks for joining! We'll be in touch soon.
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-10">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-white text-xl font-bold">ShopifyLLMS.com</h3>
+                    <p class="text-sm mt-1">Making Shopify stores AI-ready</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-product-hunt"></i></a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+                <p>© 2023 ShopifyLLMS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Form submission
+        document.getElementById('waitlistForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            
+            // Here you would typically send the email to your backend
+            // For demo purposes, we'll just show a success message
+            console.log('Email submitted:', email);
+            
+            document.getElementById('waitlistForm').style.display = 'none';
+            document.getElementById('successMessage').classList.remove('hidden');
+            
+            // Scroll to show the success message
+            document.getElementById('successMessage').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Hero CTA button scrolls to form
+        document.getElementById('ctaButton').addEventListener('click', () => {
+            document.querySelector('section:last-of-type').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+
+        // Add fade-in animation when elements come into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
 </body>
 </html>
