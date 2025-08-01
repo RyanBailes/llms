@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc></loc>
-  <priority>1.0</priority>
-  <changefreq>monthly</changefreq>
-  <lastmod>2025-08-01</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://shopifyllms.com/</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Features section -->
+  <url>
+    <loc>https://shopifyllms.com/#features</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- How it Works section -->
+  <url>
+    <loc>https://shopifyllms.com/#how-it-works</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQs -->
+  <url>
+    <loc>https://shopifyllms.com/#faqs</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Call-to-action / Waitlist -->
+  <url>
+    <loc>https://shopifyllms.com/#cta</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- LLMs Discovery File -->
+  <url>
+    <loc>https://shopifyllms.com/llms.txt</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Full LLMs Discovery -->
+  <url>
+    <loc>https://shopifyllms.com/llms-full.txt</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>

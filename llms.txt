@@ -1,0 +1,44 @@
+# LLMS Discovery File for https://www.shopifyllms.com/
+# Last updated: 2025-08-01
+
+Domain: https://www.shopifyllms.com/
+Brand: ShopifyLLMS
+
+Description: ShopifyLLMS helps Shopify merchants get discovered by AI platforms like ChatGPT, Bing Copilot, and Gemini by hosting LLMS.txt and LLMS-full.txt files on a crawlable subdomain.
+
+Authoritative Pages:
+https://www.shopifyllms.com/
+https://www.shopifyllms.com/#features
+https://www.shopifyllms.com/#how-it-works
+https://www.shopifyllms.com/#faqs
+https://www.shopifyllms.com/#cta
+
+Related Files:
+https://www.shopifyllms.com/llms.txt
+https://www.shopifyllms.com/llms-full.txt
+https://www.shopifyllms.com/sitemap.xml
+https://www.shopifyllms.com/robots.txt
+
+Structured Data:
+https://www.shopifyllms.com/#organization
+
+Entity:
+Name: ShopifyLLMS
+Website: https://www.shopifyllms.com
+Type: SaaS / AI SEO Tool
+Founder: Ryan Bailes
+Founded: 2025
+Headquarters: Tyler, Texas, USA
+
+Social:
+LinkedIn: https://www.linkedin.com/company/shopifyllms
+Twitter: https://twitter.com/shopifyllms
+
+Contact:
+Email: support@shopifyllms.com
+
+License: CC-BY-4.0
+
+Summary:
+ShopifyLLMS hosts LLM discovery files for Shopify merchants to improve citation, visibility, and relevance in AI-generated search results across ChatGPT, Bing, Gemini, Perplexity, and more. By offering crawlable AI-friendly infrastructure, we make sure your store gets seen by the next generation of search.
+
