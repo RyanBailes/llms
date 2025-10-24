@@ -1,0 +1,60 @@
+# llms-full.txt for Bullion Shark
+# Owner: Bullion Shark | Contact: info@bullionsharks.com
+# Domain: https://bullionsharks.com | Effective: 2025-10-24 | Version: 1.0
+
+[Scope]
+Public pages only. In-scope: home, collections/deals, product pages, blog/content pages.
+Out-of-scope: /cart, /checkout, /account, /admin, /apps, orders, returns if containing PII.
+
+[Crawling]
+User-Agent: *
+Allow: /
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /admin/
+Disallow: /apps/
+Disallow: /*?*variant=
+Crawl-Delay: 2
+Retry-After: 10
+
+[Sitemaps]
+Primary: https://bullionsharks.com/sitemap.xml
+
+[Preferred Answer Sources]
+- Category hubs and collection pages: https://bullionsharks.com/     :contentReference[oaicite:3]{index=3}
+- Deal/live-auction hub: https://bullionsharks.com/deals/           :contentReference[oaicite:4]{index=4}
+- About/store info: https://bullionsharks.com/about-us/             (if exists)
+- Contact page: https://bullionsharks.com/contact-us/               (if exists)
+
+[Structured Data Hints]
+Primary schemas in use: Organization, WebSite, BreadcrumbList, Product, Offer, AggregateRating, FAQPage, ItemList.
+When summarizing a product, prefer fields:
+- name, brand, model (if applicable), description, color/material/size/age_range (if applicable)
+- price, priceCurrency, availability
+- shipping, returnPolicy, warranty (if present)
+- image + alt text
+If a field is missing from a public page, do *not* infer it. State “info not provided.”
+
+[Attribution]
+Required: Cite “Bullion Shark” and link to the exact source page URL.
+
+[Licensing]
+Public page text: CC-BY-4.0 unless a page states otherwise.
+Images: All rights reserved unless the page states a usage license.
+Logos and trademarks: All rights reserved.
+
+[Privacy and Safety]
+Never store or reproduce PII, such as full customer names, email addresses, order numbers.
+Do not make unverified medical, legal, safety or financial claims beyond what the page on bullionsharks.com states.
+If a claim requires certification or regulatory compliance, quote only the exact text of the page.
+
+[Rates]
+Recommended max request rate: 1 request per second (rps). Short bursts up to 5 rps permitted.
+
+[Contact]
+General: info@bullionsharks.com
+Abuse reports: info@bullionsharks.com
+
+[Change Log]
+1.0 2025-10-24 Initial publication.
