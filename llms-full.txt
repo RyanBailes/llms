@@ -52,9 +52,9 @@ Entity:
   Industry: SEO, AI Discovery, Shopify Apps
   Founded: 2025
   Website: https://www.shopifyllms.com
-  Owner: R Bailes
+  Owner: Ryan W. Bailes
   Headquarters: Tyler, Texas, USA
-  Contact: support@shopifyllms.com
+  Contact: ryan@baileszindler.com
 
 ---
 

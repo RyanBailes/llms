@@ -30,12 +30,8 @@ Founder: Ryan Bailes
 Founded: 2025
 Headquarters: Tyler, Texas, USA
 
-Social:
-LinkedIn: https://www.linkedin.com/company/shopifyllms
-Twitter: https://twitter.com/shopifyllms
-
 Contact:
-Email: support@shopifyllms.com
+Email: ryan@baileszindler.com
 
 License: CC-BY-4.0
 
