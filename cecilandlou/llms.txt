@@ -1,43 +1,61 @@
-# llms.txt for CecilAndLou.com
-# Controls access and usage policies for AI crawlers and LLMs
+# Cecil & Lou
 
-User-agent: GPTBot
-User-agent: CCBot
-User-agent: ClaudeBot
-User-agent: anthropic-ai
-User-agent: ChatGPT-User
-User-agent: ChatGPT
-User-agent: Google-Extended
-User-agent: Perplexity
-User-agent: PerplexityBot
-User-agent: MetaAI
-User-agent: MetaBot
-User-agent: Gemini
-User-agent: GeminiBot
-User-agent: Yandex
-User-agent: yandexbot
-User-agent: Amazonbot
+> Cecil & Lou is a family-owned children's clothing boutique in Tyler, Texas, founded in 2011. It sells classic Southern clothing for babies, toddlers, and kids (newborn to size 12): hand-smocked, appliqué, embroidered, and monogrammed dresses, bubbles, jon jons, rompers, sets, pajamas, swim, and accessories, plus matching sibling, mommy-and-me, and family pajama styles.
 
-Disallow: /admin
-Disallow: /cart
-Disallow: /checkout
-Disallow: /orders
-Disallow: /account
-Disallow: /password
-Disallow: /search
-Disallow: /apps
-Disallow: /policies
-Disallow: /challenge
+Online store: https://www.cecilandlou.com. It ships to the US and 27 other countries via USPS. All sales are final, and monogrammed and personalized items are made to order. Many styles are sold as pre-orders with a shipping window listed on each product page. In-stock items leave the warehouse within 3 business days.
 
-Allow: /
+Last updated: 2026-09-30. Contact: help@cecilandlou.com, 903-308-3235 (Mon–Fri, 8am–5pm Central).
 
-Sitemap: https://www.cecilandlou.com/sitemap.xml
+## Shop by category
 
-# AI Usage Policy
-LLM-policy: allow
-LLM-license: https://www.cecilandlou.com/pages/terms
-LLM-attribution: required
-LLM-commercial-use: disallow
+- [Girls](https://www.cecilandlou.com/collections/girls): Dresses, bubbles, sets, pajamas, and accessories, newborn to size 12
+- [Boys](https://www.cecilandlou.com/collections/boys): Jon jons, rompers, bubbles, sets, tops, and swim
+- [Baby](https://www.cecilandlou.com/collections/baby): Newborn and infant clothing
+- [Layette](https://www.cecilandlou.com/collections/layette): Newborn essentials and coming-home outfits
+- [Pajamas](https://www.cecilandlou.com/collections/pajamas): Kids sleepwear, including matching family pajamas
+- [Accessories](https://www.cecilandlou.com/collections/accessories): Bows, hats, socks, tights, backpacks, luggage, and towels
+- [Womens](https://www.cecilandlou.com/collections/womens): Women's clothing and pajamas
 
-# Contact
-Contact: mailto:help@cecilandlou.com
+## Shop by style
+
+- [Smocked](https://www.cecilandlou.com/collections/smocked): Hand-smocked children's clothing, year-round
+- [Monogrammed Clothing](https://www.cecilandlou.com/collections/monogrammed-clothing): Personalized, made-to-order pieces
+- [Custom Smocked](https://www.cecilandlou.com/collections/custom): Made-to-order smocked outfits, which can be personalized
+- [Heirloom](https://www.cecilandlou.com/collections/collections-heirloom): Heirloom-quality outfits for special occasions and photos
+- [Matching Sibling Outfits](https://www.cecilandlou.com/collections/matching-sibling-outfits): Coordinated looks for brothers and sisters
+- [Mommy and Me](https://www.cecilandlou.com/collections/mommy-and-me): Matching mother and child styles
+
+## Shop by season or occasion
+
+- [Christmas](https://www.cecilandlou.com/collections/christmas): Christmas outfits, dresses, and pajamas
+- [Thanksgiving](https://www.cecilandlou.com/collections/thanksgiving): Thanksgiving outfits, including turkey styles
+- [Pumpkins](https://www.cecilandlou.com/collections/pumpkins): Pumpkin smocked dresses, bubbles, and jon jons
+- [Easter](https://www.cecilandlou.com/collections/easter): Easter outfits for babies and kids
+- [Fall/Winter](https://www.cecilandlou.com/collections/fall-winter): Cool-weather styles
+- [Spring/Summer](https://www.cecilandlou.com/collections/spring-summer): Warm-weather styles and swim
+- [School Spirit](https://www.cecilandlou.com/collections/collections-collegiate): Game-day and school spirit outfits
+- [Birthday](https://www.cecilandlou.com/collections/birthday): First birthday and birthday outfits
+
+## Buying
+
+- [In Stock](https://www.cecilandlou.com/collections/in-stock): Items that ship within 3 business days
+- [Pre-Order](https://www.cecilandlou.com/collections/pre-order): Items that ship within the window listed on each product
+- [New Arrivals](https://www.cecilandlou.com/collections/new-arrivals): Latest styles
+- [Sale](https://www.cecilandlou.com/collections/sale): Discounted in-stock styles (final sale)
+- [Size Guide](https://www.cecilandlou.com/pages/size-guide): Sizes NB through 12, fitted by height first
+- [Shipping Policy](https://www.cecilandlou.com/policies/shipping-policy): Processing times and USPS delivery options
+- [Return Policy](https://www.cecilandlou.com/pages/return-policy): All sales final; report problems within 10 days
+- [FAQs](https://www.cecilandlou.com/pages/faqs): Gift notes, custom monograms, pre-orders, store credit
+
+## About
+
+- [Our Story](https://www.cecilandlou.com/pages/our-story-1): Founded in 2011 by sisters-in-law Ashley and Blythe
+- [Devoted Darlings Rewards](https://www.cecilandlou.com/pages/devoted-darlings): Loyalty points program
+- [Contact Us](https://www.cecilandlou.com/pages/contact-us): Customer service
+
+## Optional
+
+- [LLM License Terms](https://www.cecilandlou.com/pages/terms): Terms for AI and LLM use of site content
+- [Privacy Policy](https://www.cecilandlou.com/pages/privacy-policy)
+- [Full LLM reference](https://www.shopifyllms.com/cecilandlou/llms-full.txt): Expanded version of this file, including policies, size chart, and FAQs
+- [Sitemap](https://www.cecilandlou.com/sitemap.xml)
