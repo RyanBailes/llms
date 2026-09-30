@@ -146,7 +146,7 @@ Currency: USD
 
 Accepted payment: Visa, Mastercard, American Express, Discover, Diners Club, Shop Pay, and Shop Pay Installments.
 
-Ships to: United States, Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Hong Kong, Ireland, Israel, Italy, Japan, Malaysia, Netherlands, New Zealand, Norway, Poland, Portugal, Singapore, South Korea, Spain, Sweden, Switzerland, United Arab Emirates, and United Kingdom. Confirm current destinations and rates at checkout.
+Ships to: United States only. Cecil & Lou does not currently ship internationally.
 
 ## 5. Core Brand Positioning
 
