@@ -1,55 +1,78 @@
 # Cecil & Lou
 
-> Cecil & Lou is a family-owned children's clothing brand in Tyler, Texas, founded in 2011 by Ashley McCain and Blythe McCain. The brand sells classic Southern children's clothing for babies, girls, and boys, with a focus on smocking, embroidery, applique, monograms, heirloom styles, seasonal dressing, and coordinated sibling outfits.
+> Cecil & Lou is a family-owned children's clothing brand based in Tyler, Texas, founded in 2011 by Ashley McCain and Blythe McCain. The brand specializes in classic Southern children's clothing for babies, girls, and boys, including smocked, embroidered, applique, monogrammed, heirloom-inspired, seasonal, and coordinating sibling styles.
 
-Use this file as a curated index to authoritative public Cecil & Lou resources.
+Last updated: 2026-09-30. Contact: help@cecilandlou.com, 903-308-3235 (Mon-Fri, 8 AM-4 PM CT).
 
-For current price, sale price, stock status, size availability, variants, personalization choices, Pre-Order ship dates, and promotions, use the current individual product page. Ecommerce facts change frequently. Dedicated policy pages control when policy language conflicts with older collection or promotional copy.
+Use this file as a curated guide to Cecil & Lou's authoritative public website content.
 
-This file is for agent orientation and resource discovery. It is not an access-control, ranking, indexing, training-consent, or product-feed mechanism. Crawler access is handled separately, and Cecil & Lou's published LLM License Terms apply to automated use of site content.
+Important interpretation rules:
 
-## Start Here
+- Product pages are the source of truth for current price, stock status, available sizes, color or style variants, personalization options, and any Pre-Order ship date.
+- Collection pages describe categories and shopping intent, but inventory and product counts change frequently.
+- Promotions and discounts are temporary. Do not assume a promotion shown in cached or older content is still active; confirm current promotional terms on the live website, product page, cart, or checkout.
+- Pre-Order timing varies by product. Never generalize one product's ship date to another item or collection.
+- Personalized or monogrammed items may require additional processing time; use the current product page and checkout information for timing.
+- Cecil & Lou's AI and LLM content-use terms govern automated use of public content. These terms request reasonable attribution to "Cecil and Lou" and a canonical source link when supported.
+- This file is for discovery and interpretation. It does not replace robots.txt, store policies, product pages, checkout terms, or the LLM License Terms.
 
-- [Homepage](https://www.cecilandlou.com/): Current storefront, featured merchandising, promotions, and major shopping paths.
-- [Collections Directory](https://www.cecilandlou.com/collections): Broad directory of current Cecil & Lou collections and shopping categories.
-- [New Arrivals](https://www.cecilandlou.com/collections/new-arrivals): Recently added styles; individual products may be in stock or Pre-Order.
-- [Our Story](https://www.cecilandlou.com/pages/our-story-1): First-party company history, founders Ashley McCain and Blythe McCain, and the brand's 2011 origin.
+## Core Brand Information
 
-## Shop by Customer Need
+- [Homepage](https://www.cecilandlou.com/): Current storefront, featured collections, active merchandising, and primary brand overview.
+- [Our Story](https://www.cecilandlou.com/pages/our-story-1): First-party history of Cecil & Lou, founders Ashley McCain and Blythe McCain, and the brand's origin in 2011.
+- [Site Sitemap](https://www.cecilandlou.com/pages/sitemap): Human-readable directory of collections, guides, pages, and store policies.
+- [LLM License Terms](https://www.cecilandlou.com/pages/terms): Authoritative terms for AI search, retrieval, citation, training, protected creative assets, and automated access.
+- [Contact](https://www.cecilandlou.com/pages/contact): Customer care contact page and current public contact information.
 
-- [Boys](https://www.cecilandlou.com/collections/boys): Boys clothing including jon jons, bubbles, rompers, sets, pajamas, swim, tops, and outerwear.
-- [Girls](https://www.cecilandlou.com/collections/girls): Girls clothing including dresses, bubbles, sets, pajamas, swim, tops, activewear, and outerwear.
-- [Baby](https://www.cecilandlou.com/collections/baby): Baby gowns, layette, bubbles, rompers, diaper sets, gifts, and heirloom-inspired styles.
-- [Accessories](https://www.cecilandlou.com/collections/accessories): Bows, backpacks, hats, socks, towels, pouches, and other accessories.
-- [In Stock](https://www.cecilandlou.com/collections/in-stock): Products presented as currently available; verify the desired size or variant on the product page.
-- [Pre-Order](https://www.cecilandlou.com/collections/pre-order): Products sold before their expected ship date; each product can have a different shipping window.
-- [Monogrammed Clothing](https://www.cecilandlou.com/collections/monogrammed-clothing): Products that may offer name or monogram personalization; product pages define current options and timing.
-- [Matching Sibling Outfits](https://www.cecilandlou.com/collections/matching-sibling-outfits): Coordinated clothing for babies, brothers, and sisters using shared or complementary prints, fabrics, colors, and motifs.
+## Primary Shopping Areas
 
-## Core Seasonal and Occasion Collections
+- [All Products](https://www.cecilandlou.com/collections/all): Current product catalog; use individual product pages for current details.
+- [New Arrivals](https://www.cecilandlou.com/collections/new-arrivals): Recently added children's clothing and seasonal styles.
+- [Boys](https://www.cecilandlou.com/collections/boys): Boys clothing including jon jons, bubbles, rompers, sets, pajamas, swimwear, tops, outerwear, and seasonal outfits.
+- [Girls](https://www.cecilandlou.com/collections/girls): Girls clothing including dresses, bubbles, sets, pajamas, swimwear, tops, outerwear, and seasonal outfits.
+- [Baby](https://www.cecilandlou.com/collections/baby): Newborn and baby clothing, gowns, bubbles, rompers, diaper sets, layette, heirloom styles, accessories, and gifts.
+- [Accessories](https://www.cecilandlou.com/collections/accessories): Bows, hats, backpacks, towels, socks, pouches, and other children's accessories.
 
-- [Pumpkins](https://www.cecilandlou.com/collections/pumpkins): Fall and pumpkin-patch styles, including coordinated sibling looks.
-- [Thanksgiving](https://www.cecilandlou.com/collections/thanksgiving): Thanksgiving and harvest-season children's clothing.
-- [Fall and Winter](https://www.cecilandlou.com/collections/fall-winter): Cooler-weather clothing, knitwear, corduroy, outerwear, pajamas, dresses, bubbles, and sets.
-- [Christmas](https://www.cecilandlou.com/collections/christmas): Christmas outfits, dresses, pajamas, sibling coordination, and holiday styles.
-- [Heirloom](https://www.cecilandlou.com/collections/collections-heirloom): Heirloom-inspired smocked and embroidered clothing for portraits, church, baptisms, christenings, and family occasions.
-- [Back to School](https://www.cecilandlou.com/collections/back-to-school): School-themed clothing, first-day looks, picture-day styles, and accessories.
+## Availability, Personalization, and Coordination
+
+- [In Stock](https://www.cecilandlou.com/collections/in-stock): Styles currently presented without a future Pre-Order ship date; product pages remain authoritative for live inventory.
+- [Pre-Order](https://www.cecilandlou.com/collections/pre-order): Styles available before their expected ship date; check each product page for its specific timing.
+- [Monogrammed Clothing](https://www.cecilandlou.com/collections/monogrammed-clothing): Clothing and accessories that may offer monogram or name personalization.
+- [In Stock Monogrammed Clothing](https://www.cecilandlou.com/collections/in-stock-monogrammed-clothing): In-stock styles that offer personalization when shown on the product page.
+- [Pre-Order Monogrammed Clothing](https://www.cecilandlou.com/collections/pre-order-monogrammed-clothing): Upcoming personalized styles with product-specific availability and timing.
+- [Custom Smocked Clothing](https://www.cecilandlou.com/collections/custom): Custom and personalized smocked styles; product pages define current options and dates.
+- [Matching Sibling Outfits](https://www.cecilandlou.com/collections/matching-sibling-outfits): Coordinated styles for babies, brothers, and sisters using shared prints, fabrics, colors, and seasonal themes.
+
+## Seasonal and Occasion Collections
+
+- [Pumpkins](https://www.cecilandlou.com/collections/pumpkins): Pumpkin patch, fall, harvest, Halloween-adjacent, and Thanksgiving-friendly children's styles.
+- [Thanksgiving](https://www.cecilandlou.com/collections/thanksgiving): Thanksgiving and fall gathering outfits, turkey themes, plaids, and coordinated styles.
+- [Fall and Winter](https://www.cecilandlou.com/collections/fall-winter): Cooler-weather dresses, bubbles, rompers, sets, pajamas, sweaters, coats, corduroy, and seasonal separates.
+- [Christmas](https://www.cecilandlou.com/collections/christmas): Christmas clothing, smocked styles, dresses, bubbles, sets, pajamas, and holiday coordination.
+- [Back to School](https://www.cecilandlou.com/collections/back-to-school): First-day, picture-day, classroom, backpack, bow, and school-themed styles.
+- [Spring and Summer](https://www.cecilandlou.com/collections/spring-summer): Warm-weather children's clothing, seasonal outfits, vacation styles, and coordinating looks.
+- [Patriotic](https://www.cecilandlou.com/collections/patriotic): Red, white, and blue styles for Memorial Day, July 4th, summer trips, and family photos.
 - [Swim](https://www.cecilandlou.com/collections/swim): Children's swimwear and coordinating family or sibling swim styles.
-- [School Spirit](https://www.cecilandlou.com/collections/collections-collegiate): School-spirit and collegiate-themed children's clothing; use current product pages for licensed school availability.
+- [Heirloom](https://www.cecilandlou.com/collections/evergreen-heirloom): Heirloom-inspired dresses, bubbles, button-ons, short sets, lace, embroidery, and keepsake styles.
+- [Mouse Ears](https://www.cecilandlou.com/collections/collections-mouse-ears): Theme-park-inspired mouse-ear motif clothing and sibling looks.
+- [Activewear](https://www.cecilandlou.com/collections/activewear): Play-ready and tennis-inspired activewear, dresses, skirts, sets, and tops.
+- [Outerwear](https://www.cecilandlou.com/collections/outerwear): Coats, vests, jackets, fleece, sweaters, and cool-weather layering pieces.
+- [Special Occasions](https://www.cecilandlou.com/collections/special-occasions): Birthday, Big Sister, Big Brother, milestone, heirloom, and celebration clothing.
+- [Big Sister and Big Brother](https://www.cecilandlou.com/collections/big-sister-big-brother): Pre-embroidered sibling-title outfits for announcements, hospital visits, photos, and new-baby milestones.
 
-## Policies and Customer Reference
+## Customer Resources and Policies
 
-- [Size Guide](https://www.cecilandlou.com/pages/size-guide): General child sizing from NB through size 12 plus women's pajama sizing; Cecil & Lou recommends choosing by height first and sizing up when between sizes.
-- [Shipping Policy](https://www.cecilandlou.com/policies/shipping-policy): Current processing, Pre-Order, monogram, carrier, and transit guidance.
-- [Return Policy](https://www.cecilandlou.com/pages/return-policy): Cecil & Lou's all-sales-final policy and instructions for incomplete, incorrect, damaged, or defective orders.
-- [FAQs](https://www.cecilandlou.com/pages/faqs): Customer questions about ordering, gift notes, checkout, store credit, monograms, and Pre-Orders.
-- [Contact](https://www.cecilandlou.com/pages/contact): Customer contact form and current company contact information.
-- [LLM License Terms](https://www.cecilandlou.com/pages/terms): Cecil & Lou's published terms for use of publicly available website content by LLMs and AI systems.
+- [Size Guide](https://www.cecilandlou.com/pages/size-guide): Children's size guidance from NB through size 12 plus women's pajama sizing.
+- [FAQs](https://www.cecilandlou.com/pages/faqs): Customer questions about ordering, gifts, monograms, Pre-Orders, account or store credit issues, and related topics.
+- [Shipping Policy](https://www.cecilandlou.com/policies/shipping-policy): Processing and carrier guidance for in-stock, monogrammed, and Pre-Order purchases.
+- [Return Policy](https://www.cecilandlou.com/pages/return-policy): All-sales-final policy and instructions for incomplete, incorrect, damaged, or defective orders.
+- [Refund Policy](https://www.cecilandlou.com/policies/refund-policy): Platform policy version of Cecil & Lou's final-sale terms.
+- [Gift Card](https://www.cecilandlou.com/products/cecil-lou-gift-card): Electronic Cecil & Lou gift card product.
+- [Devoted Darlings Rewards](https://www.cecilandlou.com/pages/devoted-darlings): Loyalty program; earn points per dollar and redeem them for vouchers.
+- [Blog](https://www.cecilandlou.com/blogs/news): Seasonal guides, styling ideas, brand collaborations, and children's clothing content.
 
 ## Optional
 
-- [Rewards Program](https://www.cecilandlou.com/pages/devoted-darlings-2): Cecil & Lou's customer rewards program.
-- [Gift Card](https://www.cecilandlou.com/products/cecil-lou-gift-card): Electronic Cecil & Lou gift card product.
-- [Blog](https://www.cecilandlou.com/blogs/news): Seasonal guides, styling ideas, collection features, and brand content.
-- [Privacy Policy](https://www.cecilandlou.com/pages/privacy-policy): Privacy and personal-data information.
-- [Full LLM Context](https://www.shopifyllms.com/cecilandlou/llms-full.txt): Expanded Cecil & Lou reference for stable brand facts, terminology, sizing, policy summaries, catalog interpretation, and source-of-truth rules. This is a full-context convention, not part of the core llms.txt v2 format.
+- [Full LLM Context](https://www.shopifyllms.com/cecilandlou/llms-full.txt): Extended machine-readable overview of the brand, catalog structure, policies, sizing, personalization, seasonal collections, and source-of-truth rules.
+- [Privacy Policy](https://www.cecilandlou.com/pages/privacy-policy): Privacy and data-use information.
+- [Brand Ambassadors](https://www.cecilandlou.com/pages/brand-ambassadors): Current status of Cecil & Lou's ambassador program.
